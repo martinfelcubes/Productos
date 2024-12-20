@@ -1,3 +1,47 @@
+Este es un proyecto desarrollado con la finalidad de poner en practica mis conocimientos sobre el framework de laravel en la version 11, se desarrollo con una implementacion basica de bootstrap y esta desarrollado para manejar un Crud Basico de una tabla Productos
+
+Para ejecutar el proyecto es necesario contar con lo siguiente:
+
+
+"php": "^8.2",
+"laravel/framework": "^11.31",
+"laravel/tinker": "^2.9"
+"fakerphp/faker": "^1.23",
+"laravel/pail": "^1.1",
+"laravel/pint": "^1.13",
+"laravel/sail": "^1.26",
+"mockery/mockery": "^1.6",
+"nunomaduro/collision": "^8.1",
+"phpunit/phpunit": "^11.0.1"
+"npm": "^10.9.0"
+
+Una ves instaladas todas la dependencias se debe configurar la conexión a la base de datos, el programa incluye un Seeder "ProductSeeder", que genera un cargue basico de 4 elementos sobre las migraciones del sistema
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

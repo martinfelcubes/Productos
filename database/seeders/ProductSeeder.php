@@ -19,19 +19,19 @@ class ProductSeeder extends Seeder
         $Producto = [
 
             ['name' => 'Madera',
-                'desciption' => 'Producto utilizado para construiciion de muebles',
+                'description' => 'Producto utilizado para construiciion de muebles',
                 'price' => 50.5,
                 'stock' => 100,],
                 ['name' => 'Metal',
-                'desciption' => 'Producto utilizado para la creaciond e herramientas (Requiere forja)',
+                'description' => 'Producto utilizado para la creaciond e herramientas (Requiere forja)',
                 'price' => 120,
                 'stock' => 25,],
                 ['name' => 'Piedra',
-                'desciption' => 'Recurso utilizado para construccion de casas',
+                'description' => 'Recurso utilizado para construccion de casas',
                 'price' => 30,
                 'stock' => 1000,],
                 ['name' => 'Hilo',
-                'desciption' => 'Producto utilizado para la creacionde prendas',
+                'description' => 'Producto utilizado para la creacionde prendas',
                 'price' => 200,
                 'stock' => 60,],
             ];

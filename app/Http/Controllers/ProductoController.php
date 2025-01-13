@@ -34,6 +34,14 @@ class ProductoController extends Controller
         return view("Productos.index", compact('Productos'));
     }
 
+
+    public function front()
+    {
+        $Productos = $this->productRepository->all();
+        return view("Productos.front", compact('Productos'));
+    }
+
+
     /**
      * Muestra el formulario para crear un nuevo producto.
      *

@@ -19,8 +19,8 @@
                                 </div>
                                   
                                 <div class="mb-3">
-                                    <label for="desciption" class="form-label">Descipcion</label>
-                                    <input type="text" name="desciption"  id="desciption" value={{$producto->desciption}}>
+                                    <label for="description" class="form-label">Descipcion</label>
+                                    <input type="text" name="description"  id="description" value={{$producto->desciption}}>
                                 </div>
 
                                 <div class="mb-3">

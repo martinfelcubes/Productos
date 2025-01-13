@@ -6,7 +6,7 @@ use App\Models\Product;
 class ProductRepository
 
 {
-    private $model;
+    protected $model;
 
     public function __construct(Product $product)
     {
